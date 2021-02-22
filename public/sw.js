@@ -1,14 +1,15 @@
 var CACHE_NAME = 'my-app';
 var urlsToCache = [
+  '/',
   '/static/js/bundle.js',
   '/static/js/main.chunk.js',
   '/static/js/0.chunk.js',
-  "index.html",
+  '/index.html',
   "/manijest.json",
   "/static/media/logo.6ce24c58.svg",
  
   
-  "/",
+ 
 ];
 
 self.addEventListener('install', function(event) {
